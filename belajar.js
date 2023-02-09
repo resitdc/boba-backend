@@ -4,10 +4,10 @@ let bodyParser = require("body-parser");
 let cors = require("cors");
 const app = express()
 let connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'root',
-  password : '',
-  database : 'kampus'
+  host     : '5.181.216.42',
+  user     : 'u1084987_boba',
+  password : 'RestuGantengBanget',
+  database : 'u1084987_kampus'
 });
 
 app.use(cors());
